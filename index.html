@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practical Question 2</title>
+
+	<style type="text/css">
+		table,tr,td{
+			border:1px solid;
+			padding: 0px 0px;
+		}
+
+		.title{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+
+	<table>
+		<tr>
+			<td colspan="2" class="title"><strong>Pizza Shop 2.0</strong> </td>
+		</tr>
+
+		<tr>
+			<td>Name</td>
+			<td><input type="text" name="name"></td>
+		</tr>
+
+		<tr>
+			<td>Pizza Topping</td>
+			<td>
+				<div><input type="radio" name="Supreme" >Supreme</div>
+				<div><input type="radio" name="Vegetarion">Vegetarion</div>
+				<div><input type="radio" name="Hawaiian" >Hawaiian</div>
+			</td>
+		</tr>
+
+		<tr>
+			<td>Pizza Sauce</td>
+			<td>
+				<select>
+					<option>Tomato</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td>Optional Extras</td>
+			<td>
+				<span><input type="radio" name="Extra Cheese" >Extra Cheese</span>
+				<span><input type="radio" name="Gluten Free Base" >Gluten Free Base</span>
+			</td>
+		</tr>
+
+	
+		<tr>
+			<td colspan="2">
+				<div>Delivery Instruction:</div>
+	
+				<div><textarea name="instruct" rows="3" cols="30"></textarea></div>
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2"><input  type="submit" value="Send my Order"/></td>
+		</tr>
+		
+
+	</table>
+
+	
+</body>
+</html>
